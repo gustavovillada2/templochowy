@@ -1,0 +1,30 @@
+img{
+
+}
+.transformar{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.transform_up{
+    transform: translateY(30%);
+}
+
+.transform_down{
+    transform: translateY(-30%);
+}
+
+.transform_rigth{
+    transform: translateX(30%);
+}
+
+.transform_left{
+    transform: translateX(-30%);
+}
+
+
+
+.aparece{
+    opacity: 1;
+    transform: none;
+}
